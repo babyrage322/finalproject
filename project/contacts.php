@@ -18,9 +18,8 @@
    
 	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 	
-	<script src="js/modernizr.custom.17475.js"></script>
-	<script type="text/javascript">
-
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="assets/JavaScript/script.js"></script>
 </script>
 
 

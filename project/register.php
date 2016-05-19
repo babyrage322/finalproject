@@ -11,13 +11,14 @@ $con = new  mysqli('localhost','root','','users');
 	
 	if($con->query($query)){ 
 		echo "YOUR REGISTRATION IS COMPLETED..."; 
-		} 
+		header("Location: completed.html");	
+	}
 
 	 
 	else{
 		echo $con->error;
 	}
-}
+
 ?>
 
 
